@@ -1,0 +1,28 @@
+:root {
+    --primary: #ffffff;
+    --secondary: #7208ec;
+    --padding: 3em;
+    --cinza: #6bb36b;
+    --cinza-claro: #666666;
+    --back: #1e0135;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 30em;
+    padding: 20em;
+    margin: 0 auto;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
