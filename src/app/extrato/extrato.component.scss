@@ -1,0 +1,39 @@
+.container {
+    padding: 0 0 100%;
+    margin-top: 0%;
+}
+
+.titulo {
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.tabela {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    background-color: var(--texto);
+    box-shadow: 0 0 0.4em black;
+    &__cabecalho {
+        color: var(--primary);
+        &__conteudo {
+            padding: 10px;
+            border-bottom: 2px solid var(--linha);
+        }
+    }
+    &__linha {
+        margin-bottom: 10px;
+        border-radius: 4px;
+        &:last-child {
+            .tabela__conteudo {
+                border-bottom: none;
+            }
+        }
+    }
+    &__conteudo {
+        padding: 10px;
+        border-bottom: 1px solid var(--shadonw-white);
+    }
+}
