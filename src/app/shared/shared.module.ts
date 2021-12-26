@@ -8,7 +8,8 @@ import { AppMaterialModule } from './app-material/app-material.module';
 
   imports: [
     CommonModule,
-    AppMaterialModule
+    AppMaterialModule,
+
   ],
   exports: [
 

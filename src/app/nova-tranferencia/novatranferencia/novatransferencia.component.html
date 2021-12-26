@@ -1,15 +1,15 @@
 <section class="container">
-    <form class="formulario">
+    <form class="formulario" (ngSubmit)="transferir()">
         <h2 class="formulario__titulo">Nova Tranferência</h2>
 
         <mat-form-field appearance="fill" class="form-field">
             <mat-label>Valor</mat-label>
-            <input matInput placeholder="R$00,00">
+            <input type="number" matInput placeholder="R$00,00" [(ngModel)]="valor" name="valor">
         </mat-form-field>
 
         <mat-form-field appearance="fill" class="form-field">
             <mat-label>Destino</mat-label>
-            <input matInput placeholder="Belém PA">
+            <input type="text" matInput placeholder="Belém PA" [(ngModel)]="destino" name="destino">
         </mat-form-field>
 
         <div align="center">

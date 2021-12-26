@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NovatranferenciaComponent } from './novatranferencia.component';
+import { NovatranferenciaComponent } from './novatransferencia.component';
 
 describe('NovatranferenciaComponent', () => {
   let component: NovatranferenciaComponent;
