@@ -1,16 +1,14 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed, inject } from '@angular/core/testing';
+import { TransferenciaService } from './transferecia.service';
 
-import { TransfereciaService } from './transferecia.service';
-
-describe('TransfereciaService', () => {
-  let service: TransfereciaService;
-
+describe('Service: Transferencia', () => {
   beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(TransfereciaService);
+    TestBed.configureTestingModule({
+      providers: [TransferenciaService]
+    });
   });
 
-  it('should be created', () => {
+  it('should ...', inject([TransferenciaService], (service: TransferenciaService) => {
     expect(service).toBeTruthy();
-  });
+  }));
 });
