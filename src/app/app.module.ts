@@ -11,6 +11,7 @@ import { ExtratoComponent } from './extrato/extrato.component';
 import { NovaTransferenciaComponent } from './nova-tranferencia/novatranferencia/novatransferencia.component';
 import localePt from '@angular/common/locales/pt';
 import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
 
 
 registerLocaleData(localePt, 'pt');
@@ -27,7 +28,9 @@ registerLocaleData(localePt, 'pt');
     FormsModule,
     HttpClientModule,
     MatInputModule,
-    MatTableModule
+    MatTableModule,
+    AppRoutingModule
+
 
   ],
   providers: [
